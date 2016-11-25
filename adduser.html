@@ -15,10 +15,7 @@
         <link rel="stylesheet" href="css/styles.css">
          <link rel="stylesheet" href="css/styles2.css">
         <!-- EOF CSS INCLUDE -->
-        
-            
-        </head>
-        
+    </head>
         
     <body>        
         
@@ -77,11 +74,11 @@
                     <div class="app-navigation-horizontal">
                         <nav>
                             <ul>
-                                <li class="active">
+                                <li >
                                     <a href="dashboard.html"><span class="icon-laptop-phone"></span> Strona Główna</a>
                                     
                                 </li>
-                                <li>
+                                <li class="active">
                                     <a href="fc.html"><span class="icon-user"></span>Rada Wydziału</a>                
                                    
                                 </li>
@@ -98,87 +95,118 @@
                
                 </div>
 
-
  <!-- START PAGE HEADING -->
                     
                     <div class="app-heading-container app-heading-bordered bottom">
                         <ul class="breadcrumb">
-                            <li class="active"><a href="#">Dashboard</a></li>
-                           
+                            <li><a href="dashboard.html">Strona Główna</a></li>
+                            <li><a href="meeting.html">Rada Wydziału</a></li>
+                            <li class="active"><a href="#">Dodaj Członka Rady</a></li>
                         </ul>
                     </div>
-                    <!-- END PAGE HEADING -->     
-                        
-                        
-                        
-                        
-                         <div class="block block-condensed">
-                            <div class="app-heading app-heading-small">                                
+                
+                   <!-- START PAGE CONTAINER -->
+                    <div class="container container-boxed">
+                                                                                
+                        <!-- RECENT ACTIVITY -->
+                        <div class="block block-condensed">                            
+                            <div class="app-heading app-heading-small">
+                               
                                 
+                                <ul class="breadcrumb">
+                                     <h2>Dodaj członka rady</h2>
+                           
+                        </ul>
                             </div>
                             
+                           
                             <div class="block-content">
-                            
-                                
-                                <div class="row">
-                                    <div class="col-md-3">                                    
-
-                                        <div class="app-widget-tile">                                                                                    
-                                            <div class="intval intval-lg">0</div>
-                                            <div class="line">
-                                                <div class="title wide text-center">Members</div>                                                
+    
+                                <form class="form-horizontal">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Imię</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" value="" type="text">
+                                                </div>
                                             </div>
-                                        </div>
-                                    
-                                    </div>
-                                    <div class="col-md-3">                                    
-
-                                        <div class="app-widget-tile app-widget-tile-primary">                                                                                    
-                                            <div class="intval intval-lg">0</div>
-                                            <div class="line">
-                                                <div class="title wide text-center">Points</div>                                                
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Nazwisko</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" value="" type="text">
+                                                </div>
                                             </div>
-                                        </div>
-                                    
-                                    </div>
-                                    <div class="col-md-3">                                    
 
-                                        <div class="app-widget-tile app-widget-tile-info">                                            
-                                            <div class="intval intval-lg">0</div>
-                                            <div class="line">
-                                                <div class="title wide text-center">Meetings</div>                                                
+                                            
+                                             <div class="form-group">
+                                                <label class="col-md-3 control-label">Tytuł naukowy</label>
+                                                <div class="col-md-9">
+                                                    <div class="btn-group bootstrap-select bs-select">
+                                                        
+                                                        
+                                                        <select tabindex="-98" class="bs-select" name="title">                                                        
+                                                        <option value="1" selected="">Title 1</option>
+                                                        <option value="2">Title 1</option>
+                                                        <option value="4">Title 1</option>
+                                                        <option value="3">Title 1</option>
+                                                    </select></div>
+                                                </div>
                                             </div>
+                                            
                                         </div>
-                                    
-                                    </div>
-                                    <div class="col-md-3">                                    
-
-                                        <div class="app-widget-tile app-widget-tile-success">                                            
-                                            <div class="intval intval-lg">0</div>
-                                            <div class="line">
-                                                <div class="title wide text-center">Resolutions</div>                                                
+                                        <div class="col-md-6">
+                                            
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Wydział</label>
+                                                <div class="col-md-9">
+                                                    <div class="btn-group bootstrap-select bs-select">
+                                                        
+                                                        
+                                                        <select tabindex="-98" class="bs-select" name="facl">                                                        
+                                                        <option value="1" selected="">W1</option>
+                                                        <option value="2">W2</option>
+                                                        <option value="4">W3</option>
+                                                        <option value="3">W4</option>
+                                                    </select></div>
+                                                </div>
                                             </div>
+                                                                                        
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Adres e-mail</label>
+                                                <div class="col-md-9">
+                                                    <input class="form-control" value="" type="text">
+                                                </div>
+                                            </div>
+                                                                              
+                                            
                                         </div>
-                                    
                                     </div>
-                                    <br><br>
+                                   
                                     
-                                </div>
-                                
-                              
-                                
+                                </form>
+                                <br/>
+                                 <div class="row">
+                                        <div class="col-md-12 text-right">
+                                            <a href="fc.html" class="btn btn-info ">Dodaj</a>
+                                        </div>
+                                    </div>
+                                                                        
                             </div>
-                    
-                      
                         </div>
-                        
-                        
-                        
+                        <!-- END RECENT -->
+                                
                     </div>
-                                                                                                  
-                  <div class="app-overlay"></div>
+                    <!-- END PAGE CONTAINER -->
+                    
+               
+			</div>	
+	
+
+          <div class="app-overlay"></div>
         
-            <div class="app-footer app-footer-default" id="footer">
+           	<div class="app-footer app-footer-default" id="footer">
                 
                 <div class="container container-boxed">
                     <div class="app-footer-line">
@@ -192,19 +220,14 @@
                         </div>
                     </div>
                 </div>
-                
-            </div>
-        
            
-            </div>
-                       
-                
-        </div>
+           
+			 </div>
+            </div>            
+          </div>  
+     
             
-      
-        
-         
-        
+
         
         <!-- IMPORTANT SCRIPTS -->
         <script type="text/javascript" src="js/vendor/jquery/jquery.min.js"></script>
@@ -212,9 +235,16 @@
         <script type="text/javascript" src="js/vendor/bootstrap/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/vendor/moment/moment.min.js"></script>
         <script type="text/javascript" src="js/vendor/customscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <!-- END IMPORTANT SCRIPTS -->
-        <!-- THIS PAGE SCRIPTS -->
-        <script type="text/javascript" src="js/vendor/bootstrap-select/bootstrap-select.js"></script>        
+         <!-- END IMPORTANT SCRIPTS -->
+        
+         <!-- THIS PAGE SCRIPTS -->
+        <script type="text/javascript" src="js/vendor/bootstrap-select/bootstrap-select.js"></script>    
+        <script type="text/javascript" src="js/vendor/bootstrap-select/bootstrap-select.js"></script>
+        <script type="text/javascript" src="js/vendor/select2/select2.full.min.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap-datetimepicker/bootstrap-datetimepicker.js"></script>
+        <script type="text/javascript" src="js/vendor/bootstrap-daterange/daterangepicker.js"></script>
+       
+       
         <!-- END THIS PAGE SCRIPTS -->
         <!-- APP SCRIPTS -->
         <script type="text/javascript" src="js/app.js"></script>

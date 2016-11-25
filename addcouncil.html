@@ -100,8 +100,8 @@
                     <div class="app-heading-container app-heading-bordered bottom">
                         <ul class="breadcrumb">
                             <li><a href="dashboard.html">Strona Główna</a></li>
-                            <li><a href="meeting.html">Posiedzenie Rady Wydziału</a></li>
-                            <li class="active"><a href="#">Dodaj Punkt do posiedzenia Rady</a></li>
+                            <li><a href="fc.html">Rada Wydziału</a></li>
+                            <li class="active"><a href="#">Dodaj Radę Wydziału</a></li>
                         </ul>
                     </div>
                 
@@ -114,7 +114,7 @@
                                
                                 
                                 <ul class="breadcrumb">
-                                     <h2>Dodaj Punkt do posiedzenia Rady</h2>
+                                     <h2>Dodaj Radę Wydziału</h2>
                            
                         </ul>
                             </div>
@@ -127,13 +127,13 @@
                                         <div class="col-md-6">
                                             
                                             <div class="form-group">
-                                                <label class="col-md-3 control-label"> Tytuł</label>
+                                                <label class="col-md-3 control-label">Imię Dziekana</label>
                                                 <div class="col-md-9">
                                                     <input class="form-control" value="" type="text">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label class="col-md-3 control-label">Autor</label>
+                                                <label class="col-md-3 control-label">Nazwisko Dziekana</label>
                                                 <div class="col-md-9">
                                                     <input class="form-control" value="" type="text">
                                                 </div>
@@ -148,42 +148,64 @@
                                            
                                             
                                              <div class="form-group">
-                                                <label class="col-md-3 control-label">Typ Głosowania</label>
+                                                <label class="col-md-3 control-label">Tytuł Dziekana</label>
                                                 <div class="col-md-9">
                                                     <div class="btn-group bootstrap-select bs-select">
                                                         
                                                         
-                                                        <select tabindex="-98" class="bs-select" name="vote">                                                        
-                                                        <option value="1" selected="">Jawne</option>
-                                                        <option value="2">Niejawne</option>
+                                                        <select tabindex="-98" class="bs-select" name="title">                                                        
+                                                        <option value="1" selected="">Title 1</option>
+                                                        <option value="2">Title 1</option>
+                                                        <option value="4">Title 1</option>
+                                                        <option value="3">Title 1</option>
                                                     </select></div>
                                                 </div>
                                             </div>
                                             
-											 <div class="form-group">
-                                                <label class="col-md-3 control-label">Kategoria</label>
-                                                <div class="col-md-9">
-                                                    <div class="btn-group bootstrap-select bs-select">
-                                                        
-                                                        
-                                                        <select tabindex="-98" class="bs-select" name="category">                                                        
-                                                        <option value="1" selected="">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="4">3</option>
-                                                        <option value="3">4</option>
-                                                    </select></div>
-                                                </div>
-                                            </div>
                                         </div>
                                         <div class="col-md-6">
                                             
-                                           
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Wydział</label>
+                                                <div class="col-md-9">
+                                                    <div class="btn-group bootstrap-select bs-select">
+                                                        
+                                                        
+                                                        <select tabindex="-98" class="bs-select" name="facl">                                                        
+                                                        <option value="1" selected="">W1</option>
+                                                        <option value="2">W2</option>
+                                                        <option value="4">W3</option>
+                                                        <option value="3">W4</option>
+                                                    </select></div>
+                                                </div>
+                                            </div>
                                                                                         
-								<label for="attatchments">Załączniki</label>
-								 <br>
-								  <div class="upload-drop-zone" id="drop-zone">
-									Przeciągnij pliki tutaj
-								  </div>
+                                            <div class="form-group">
+                                                <label class="col-md-3 control-label">Początek</label>
+                                                
+                                                <div class="col-md-9">
+                                                  <div class="input-group bs-datepicker">
+                                                 <input class="form-control" type="text">
+                                                   <span class="input-group-addon ">
+                                                  <span class="icon-calendar-full"></span>
+                                                 </span>
+                                                   </div>
+                                                </div>
+                                      
+                                            </div>   
+                                              <div class="form-group">
+                                                <label class="col-md-3 control-label">Koniec</label>
+                                                
+                                                <div class="col-md-9">
+                                                  <div class="input-group bs-datepicker">
+                                                 <input class="form-control" type="text">
+                                                   <span class="input-group-addon ">
+                                                  <span class="icon-calendar-full"></span>
+                                                 </span>
+                                                   </div>
+                                                </div>
+                                      
+                                            </div>  
                                                                               
                                             
                                         </div>

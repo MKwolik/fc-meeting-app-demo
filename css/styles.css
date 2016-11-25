@@ -21785,7 +21785,8 @@ body a:hover {
   background: #FFF;
 }
 .app .app-navigation-horizontal nav > ul > li.active > a {
-  color: #1B2431;
+  color: #bfcfff;
+  text-decoration: underline;
 }
 .app .app-navigation-horizontal nav > ul > li.active > ul {
   display: block;
@@ -24960,6 +24961,7 @@ input[type="file"] {
 }
 .nav.nav-tabs > li {
   width: auto;
+
 }
 .nav.nav-tabs > li > a {
   color: #454545;
@@ -24968,6 +24970,7 @@ input[type="file"] {
 .nav.nav-tabs > li.active > a {
   border-color: #DBE0E4;
   border-bottom-color: #FFF;
+  
 }
 .nav.nav-pills > li {
   width: auto;

@@ -31,7 +31,7 @@
                     
                        <div class=" navbar-brnd bag-name">
                                <a href=""><img class=""       
-                               src="images/logo.PNG">Faculty Council Meeting</a>
+                               src="images/logo.PNG">Posiedzenia Rady Wydziału</a>
                          </div> 
                  
                     <ul class="app-header-buttons visible-mobile">
@@ -63,40 +63,45 @@
                         </li>        
                     </ul>              
                 </div>
-                <!-- END APP HEADER  -->
-    
+                                 <div class="app-heading app-heading-small">
+                             <b>Bieżące posiedzenie Rady Wydziału</b> <br>
+							 Data i godzina: 10.12.2016, 12:30 <br>
+							 Miejsce: sala C-4, bud. C-13 <br>
+                            </div>
+	 <!-- END APP HEADER  -->
                 <!-- START APP CONTENT -->
                 <div class="app-content">
                     <div class="app-navigation-horizontal">
                         <nav>
                             <ul>
                                 <li >
-                                    <a href="dashboard.html"><span class="icon-laptop-phone"></span> Dashboard</a>
+                                    <a href="dashboard.html"><span class="icon-laptop-phone"></span> Strona Główna</a>
                                     
                                 </li>
                                 <li class="active">
-                                    <a href="fc.html"><span class="icon-user"></span>Faculty Council</a>                
+                                    <a href="fc.html"><span class="icon-user"></span>Rada Wydziału</a>                
+                                   
+                                </li>
+                                <li >
+                                    <a href="meeting.html"><span class="icon-calendar-full"></span>Posiedzenie Rady Wydziału</a>                
                                    
                                 </li>
                                 <li>
-                                    <a href="#"><span class="icon-calendar-full"></span> Fc Meeting</a>                
-                                   
-                                </li>
-                                <li>
-                                    <a href="#"><span class="icon-users"></span> Users</a>                
+                                    <a href="#"><span class="icon-users"></span>Użytkownicy</a>                
                                     
                                 </li>
                             </ul>
                         </nav>
                
                 </div>
-        
-                         <!-- START PAGE HEADING -->
+
+
+ <!-- START PAGE HEADING -->
                     
                     <div class="app-heading-container app-heading-bordered bottom">
                         <ul class="breadcrumb">
-                            <li><a href="dashboard.html">Dashboard</a></li>
-                            <li class="active"><a href="#">Faculty Council</a></li>
+                            <li><a href="dashboard.html">Strona Główna</a></li>
+                            <li class="active"><a href="#">Radaa Wydziału</a></li>
                             
                         </ul>
                     </div>
@@ -120,11 +125,11 @@
                                     
                                     <div class="row margin-bottom-20">
                                      <div class="col-xs-2 pull-right">
-                                                <button class="btn btn-info btn-block btn-icon-fixed  "><span class="fa fa-user-plus"></span> Import Fc</button>
+
                                             </div>
                                         
                                         <div class="col-xs-2 ">
-                                                <button class="btn btn-info  "><span class="fa fa-user-plus"></span> Add Faculty Council</button>
+                                     <a class="btn btn-info" href="addcouncil.html" role="button">Dodaj członka</a>
                                             </div>
                                     
                                     </div>
@@ -158,16 +163,16 @@
                                 <table aria-describedby="DataTables_Table_1_info" role="grid" id="DataTables_Table_1" class="table table-striped table-bordered datatable-extended dataTable no-footer">
                                     <thead>
                                         <tr role="row">
-                                            <th aria-sort="descending" aria-label="" style="width: 43px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting_desc">ID</th>
-                                            <th aria-label="" style="width: 143px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Dean Name</th>
-                                            <th aria-label="" style="width: 99px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Dean Surname</th>
+                                            <th aria-sort="descending" aria-label="" style="width: 43px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting_desc">Lp.</th>
+                                            <th aria-label="" style="width: 143px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Imię Dziekana</th>
+                                            <th aria-label="" style="width: 99px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Mazwisko Dziekana</th>
                                             
                                           
                                             
-                                            <th aria-label="" style="width: 200px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Start to End Term</th>
+                                            <th aria-label="" style="width: 200px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">Termin urzędowania</th>
                                             
                                          <th aria-label="" style="width: 100px;" colspan="1" rowspan="1" aria-controls="DataTables_Table_1" tabindex="0" class="sorting">. . . </th>
-                                             <th style="width: 20%;">Actions</th>
+                                             <th style="width: 20%;">Akcje</th>
                                         
                                         
                                         </tr>
@@ -185,8 +190,8 @@
                                             <td>2016/01/12 - 2020/01/12</td>
                                             <td></td>
                                           <td>
-                                                <button class="btn btn-default btn-info">Fc Details</button>
-                                                 <button class="btn btn-default btn-danger">Remove</button>
+                                                <button class="btn btn-default btn-info">Szczegóły</button>
+                                                 <button class="btn btn-default btn-danger">Usuń</button>
                                             </td>
                                         </tr>
                                         
@@ -201,8 +206,8 @@
                                             
                                             <td></td>
                                             <td>
-                                                <button class="btn btn-default btn-info">Fc Details</button>
-                                                 <button class="btn btn-default btn-danger">Remove</button>
+                                                <button class="btn btn-default btn-info">Szczegóły</button>
+                                                 <button class="btn btn-default btn-danger">Usuń</button>
                                             </td>
                                         </tr><tr class="odd" role="row">
                                         <td class="sorting_1">3</td>
@@ -213,8 +218,8 @@
                                             <td>2016/01/12 - 2020/01/12</td>
                                           <td></td>
                                             <td>
-                                                <button class="btn btn-default btn-info">Fc Details</button>
-                                                 <button class="btn btn-default btn-danger">Remove</button>
+                                                <button class="btn btn-default btn-info">Szczegóły</button>
+                                                 <button class="btn btn-default btn-danger">Usuń</button>
                                             </td>
                                         </tr><tr class="even" role="row">
                                           <td class="sorting_1">4</td>
@@ -224,8 +229,8 @@
                                             <td>2016/01/12 - 2020/01/12</td>
                                           <td></td>
                                             <td>
-                                                <button class="btn btn-default btn-info">Fc Details</button>
-                                                 <button class="btn btn-default btn-danger">Remove</button>
+                                                <button class="btn btn-default btn-info">Szczegóły</button>
+                                                 <button class="btn btn-default btn-danger">Usuń</button>
                                             </td>
                                         </tr>
                                         
